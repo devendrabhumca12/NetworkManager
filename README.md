@@ -3,9 +3,9 @@ NetworkManager is a simple and lightweight class written in SwiftUI to handle al
 
 ### Requirements
 
-![swift v5.3](https://img.shields.io/badge/swift-v5.3-orange.svg)
+![swift v5.3+](https://img.shields.io/badge/swift-v5.3-orange.svg)
 ![platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
-![deployment target iOS 13](https://img.shields.io/badge/deployment%20target-iOS%2013-blueviolet)
+![deployment target iOS 13+](https://img.shields.io/badge/deployment%20target-iOS%2013-blueviolet)
 
 ## Features
 
@@ -19,7 +19,7 @@ Here's the list of the awesome features `NetworkManager` has:
 ### Installation
 To install NetworkStateManager, simply add the NetworkStateManager.swift file to your Xcode project and enjoy 🙂.
 
-## 💻 How to use
+## How to use
 
 First create a `NetworkState` object and add it as an `environmentObject` to your root `View`.
 
@@ -38,7 +38,7 @@ struct NetworkStateDemoApp: App {
     }
 }
 ```
-use the `isConnected` variable to render out your UI. For more understanding download and run the project. 
+Use the `isConnected` variable to render out your UI. For more understanding download and run the project. 
 
 ```
 import SwiftUI
