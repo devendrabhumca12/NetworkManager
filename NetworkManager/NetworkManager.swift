@@ -68,9 +68,6 @@ public class NetworkManager: ObservableObject {
                     self.pathStatus = path.status
                     self.status = self.pathStatus == .satisfied ? .connected : .disconnected
                     self.isConnected = self.status == .connected ? true : false
-                }else{
-//                    self.status = .disconnected
-//                    self.isConnected = false
                 }
             }
         }
