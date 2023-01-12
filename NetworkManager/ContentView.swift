@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var networkManager: NetworkManager
+    
+    @State var isOnline = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        var x = print("landmark1: \(networkManager.networkType)")
+       
+        var z = print("landmark3: \(networkManager.isConnected)")
+        VStack(spacing: 12) {
+            Image(systemName: networkManager.isConnected ? "wifi" : "wifi.slash").font(.largeTitle)
+            Button(action: {
+                isOnline = networkManager.isConnected
+            }, label: {
+                Text("Refresh manually")
+            })
+            
+            if isOnline {
+                Text("Showing this text only after we tapped the Button and if network is Connected")
+            }
+            
         }
-        .padding()
     }
 }
 

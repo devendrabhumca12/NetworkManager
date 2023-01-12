@@ -11,6 +11,7 @@
 		AE14B3EA296FC55800B27796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14B3E9296FC55800B27796 /* ContentView.swift */; };
 		AE14B3EC296FC55F00B27796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE14B3EB296FC55F00B27796 /* Assets.xcassets */; };
 		AE14B3EF296FC55F00B27796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE14B3EE296FC55F00B27796 /* Preview Assets.xcassets */; };
+		AE14B3F6296FC5BB00B27796 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14B3F5296FC5BB00B27796 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AE14B3E9296FC55800B27796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE14B3EB296FC55F00B27796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE14B3EE296FC55F00B27796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE14B3F5296FC5BB00B27796 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AE14B3E7296FC55800B27796 /* NetworkManagerApp.swift */,
 				AE14B3E9296FC55800B27796 /* ContentView.swift */,
+				AE14B3F5296FC5BB00B27796 /* NetworkManager.swift */,
 				AE14B3EB296FC55F00B27796 /* Assets.xcassets */,
 				AE14B3ED296FC55F00B27796 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE14B3F6296FC5BB00B27796 /* NetworkManager.swift in Sources */,
 				AE14B3EA296FC55800B27796 /* ContentView.swift in Sources */,
 				AE14B3E8296FC55800B27796 /* NetworkManagerApp.swift in Sources */,
 			);

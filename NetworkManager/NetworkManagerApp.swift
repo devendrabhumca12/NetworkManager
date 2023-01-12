@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct NetworkManagerApp: App {
+    let networkManager = NetworkManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(networkManager)
         }
     }
 }
