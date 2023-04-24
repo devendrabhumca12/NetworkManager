@@ -1,4 +1,4 @@
-#  NetworkManager
+#  NetworkManager-SwiftUI
 NetworkManager is a simple and lightweight class written in SwiftUI to handle all of your network state management in your iOS projects. It provides a clean and easy-to-use interface for monitoring network connectivity, and updating your app's UI accordingly.
 
 ### Requirements
